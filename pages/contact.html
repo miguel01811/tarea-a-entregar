@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+
+    <link rel='stylesheet' href='../styles/normalize.css'>
+    <link rel='preconnect' href='https://fonts.googleapis.com'>
+    <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin>
+    <link href='https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;400;700;800&display=swap'
+        rel='stylesheet'>
+    <link rel='stylesheet' href='../styles/styles.css'>
+
+    <title>Contact</title>
+</head>
+
+<body>
+
+    <header>
+        <h1 class='web-title'>Furniture <span> Store </span></h1>
+    </header>
+
+    <div class='nav-container'>
+        <nav class='main-nav container'>
+            <a href='../index.html'>Home</a>
+            <a href='./about-us.html'>About</a>
+            <a href='./store.html'>Store</a>
+            <a href='./blog.html'>Blog</a>
+            <a href='./gallery.html'>Gallery</a>
+            <a href='./contact.html'>Contact</a>
+        </nav>
+    </div>
+
+    <main class='main-content container'>
+        <h2 class='text-center'>Contact</h2>
+
+        <form class='contact-form'>
+            <fieldset>
+                <legend>Tus Datos</legend>
+
+                <div class='input-fields'>
+                    <label for='name'>Name: </label>
+                    <input class='input' id='name' type='text' placeholder='Your name'>
+                </div>
+
+                <div class='input-fields'>
+                    <label for='subject'>Subject: </label>
+                    <input id='subject ' type='text' placeholder='Your subject'>
+                </div>
+
+                <div class='input-fields'>
+                    <label for='email'>Email: </label>
+                    <input id='email' type='email' placeholder='Your email'>
+                </div>
+
+                <div class='input-fields'>
+                    <label for='phone-number'>Phone numner: </label>
+                    <input id='phone-number' type='tel' placeholder='Your phone number'>
+                </div>
+
+
+                <div class='input-fields'>
+                    <label for='message'>Message: </label>
+                    <textarea name='message' id='message' cols='30' rows='10'></textarea>
+                </div>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Country</legend>
+
+                <div class='input-fields'>
+                    <label for='country'>Country</label>
+                    <select id='country'>
+                        <option selected>-- Select --</option>
+                        <option value='DO'>Dominican Republic</option>
+                        <option value='CA'>Canada</option>
+                        <option value='MX'>Mexico</option>
+                        <option value='US'>United Kingdom</option>
+                        <option value='AR'>Argentina</option>
+                        <option value='ES'>Spain</option>
+                        <option value='CO'>Colombia</option>
+                    </select>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Additional information</legend>
+
+                <div class='input-fields'>
+                    <label for='client'>Client</label>
+                    <input id='client' type='radio' value='client' name='type'>
+                </div>
+
+                <div class='input-fields'>
+                    <label for='supplier'>Supplier</label>
+                    <input id='supplier' type='radio' value='supplier' name='type'>
+                </div>
+
+                <div class='input-fields'>
+                    <label for='interest-categories'>Interest categoies</label>
+                    <input list='categories' name='categories'>
+                    <datalist id='categories'>
+                        <option value='Kitchen'>
+                        <option value='Office'>
+                        <option value='Bedrooms'>
+                        <option value='TV'>
+                        <option value='Exterior'>
+                    </datalist>
+                </div>
+            </fieldset>
+
+            <input class='button' type='submit' value='Send form'>
+        </form>
+    </main>
+
+    <footer class='site-footer'>
+        <div class='grid-footer container'>
+
+            <div class='footer-section'>
+                <h3>categories</h3>
+                <nav class='footer-nav'>
+                    <a href='#'>Kitchen</a>
+                    <a href='#'>Office</a>
+                    <a href='#'>Yard</a>
+                    <a href='#'>Garage</a>
+                    <a href='#'>Bedrooms</a>
+                </nav>
+            </div>
+
+            <div class='footer-section'>
+                <h3>About us</h3>
+                <nav class='footer-nav'>
+                    <a href='#'>Our history</a>
+                    <a href='#'>Mission, vision and values</a>
+                    <a href='#'>Carrers</a>
+                    <a href='#'>Privacy policy</a>
+                    <a href='#'>Terms of service</a>
+                </nav>
+            </div>
+
+            <div class='footer-section'>
+                <h3>Support</h3>
+                <nav class='footer-nav'>
+                    <a href='#'>Frequent questions</a>
+                    <a href='#'>Online help</a>
+                    <a href='#'>Trust and safely</a>
+                </nav>
+            </div>
+
+        </div>
+
+        <p id='copyright'>All rigths reserved</p>
+    </footer>
+
+</body>
+
+</html>
